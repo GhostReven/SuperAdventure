@@ -13,5 +13,9 @@ namespace SuperAdventure {
 		public Form1() {
 			InitializeComponent();
 		}
+
+		private void btnTest_Click(object sender, EventArgs e) {
+			lblGold.Text = "123";
+		}
 	}
 }
