@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Engine {
-	class Player {
+	public class Player {
 		public int CurrentHitPoints { get; set; }
 		public int MaximumHitPoints { get; set; }
 		public int Gold { get; set; }
