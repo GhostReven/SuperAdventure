@@ -5,8 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Engine {
-	class Weapon : Item{
-		public int MinimumDamage { get; set; }
-		public int MaximumDamage { get; set; }
+	public class LivingCreature {
+		public int MaximumHitPoints { get; set; }
+		public int CurrentHitPoints { get; set; }
 	}
 }
